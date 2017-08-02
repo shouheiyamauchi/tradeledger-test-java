@@ -3,9 +3,13 @@
 ## Summary
 - Created a FeeCalculator class which the constructor takes in the following arguments:
   > standardRateDays - days which the standardRate applies
+
   > standardRate - rate in % for the first standardRateDays
+
   > additionalRate - rate in % charged per day after standardRateDays
+
   > serviceFeeType - how service fee is applied (e.g. on full invoice or on discount)
+
   > serviceFeeRate - rate in % charged as service fees
 
 - Once a FeeCalculator object is created, run the calcFee method which takes in the invoice amount and the total days until repayment as arguments to calculate the total fee
