@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FeeCalculatorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-08-03T00:53:49" hostname="MacBookPro.local" time="0.01">
+<testsuite name="FeeCalculatorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-08-03T00:55:39" hostname="MacBookPro.local" time="0.009">
   <properties/>
-  <testcase name="testAttributeAdditionalRate" classname="FeeCalculatorTest" time="0.003"/>
+  <testcase name="testAttributeAdditionalRate" classname="FeeCalculatorTest" time="0.004"/>
   <testcase name="testAdditionalChargeDays" classname="FeeCalculatorTest" time="0.0"/>
   <testcase name="testAdditionalCharge" classname="FeeCalculatorTest" time="0.0"/>
   <testcase name="testNegativeChargeDays" classname="FeeCalculatorTest" time="0.0"/>
   <testcase name="testServiceFeeBaseRule1" classname="FeeCalculatorTest" time="0.0"/>
   <testcase name="testServiceFeeBaseRule2" classname="FeeCalculatorTest" time="0.0"/>
   <testcase name="testAttributeStandardRate" classname="FeeCalculatorTest" time="0.0"/>
-  <testcase name="testAttributeServiceFeeRate" classname="FeeCalculatorTest" time="0.0"/>
+  <testcase name="testAttributeServiceFeeRate" classname="FeeCalculatorTest" time="0.001"/>
   <testcase name="testAttributeServiceFeeType" classname="FeeCalculatorTest" time="0.0"/>
   <testcase name="testStandardCharge" classname="FeeCalculatorTest" time="0.0"/>
-  <testcase name="testNilAdditionalCharge" classname="FeeCalculatorTest" time="0.0"/>
+  <testcase name="testNilAdditionalCharge" classname="FeeCalculatorTest" time="0.001"/>
   <testcase name="testServiceFee" classname="FeeCalculatorTest" time="0.0"/>
-  <testcase name="testAttributeStandardRateDays" classname="FeeCalculatorTest" time="0.001"/>
+  <testcase name="testAttributeStandardRateDays" classname="FeeCalculatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
