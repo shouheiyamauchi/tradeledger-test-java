@@ -2,9 +2,9 @@ import java.math.*;
 
 public class FeeCalculator {
   private int standardRateDays;     // days which the standardRate applies
-  private BigDecimal standardRate;  // rate in % for the first standardRateDays
+  private BigDecimal standardRate;  // rate in % charged for the first standardRateDays
   private BigDecimal additionalRate;// rate in % charged per day after standardRateDays
-  private String serviceFeeType;    // how service fee is applied (e.g. on full invoice or on discount)
+  private String serviceFeeType;    // the basis of calculating the service fee (e.g. on full invoice or on discount)
   private BigDecimal serviceFeeRate;// rate in % charged as service fees
 
   FeeCalculator(int d, double s, double a, String t, double f) {
