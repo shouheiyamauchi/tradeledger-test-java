@@ -2,7 +2,7 @@
 
 ## Summary
 
-- Created a FeeCalculator class (src/main/java/FeeCalculator.java) which the constructor takes in the following arguments:
+- Created a FeeCalculator class (src/main/java/FeeCalculator.java) which has a constructor taking in the following arguments:
 
   > standardRateDays - days which the standardRate applies
 
@@ -16,11 +16,11 @@
 
 - Once a FeeCalculator object is created, run the calcFee method which takes in the invoice amount and the total days until repayment as arguments to calculate and return the total fee
 
-- The selectServiceFeeBase method stores the different ways (and isn't restricted to what's there currently) of obtaining the base amount used in calculating the service fee
+- The selectServiceFeeBase method stores the different ways (and isn't restricted to what's in there currently) of obtaining the base amount used in calculating the service fee
 
 - All fees generated are exclusive of GST
 
-- src/main/java/App.java includes a sample use of the class which calculates and prints out the results for the 4 test cases provided which can be run by typing the command below:
+- src/main/java/App.java includes a sample use of the class which calculates and prints out the results for the 4 test cases provided and can be run by typing the command below:
 
 ```
 ./gradlew run
