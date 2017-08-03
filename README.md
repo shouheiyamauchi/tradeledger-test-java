@@ -14,6 +14,8 @@
 
   > serviceFeeRate - rate in % charged as service fees
 
+- The class was intentionally built to take in percentage values and dollar values as strings which get converted into BigDecimals to ensure that the fees calculation aren't affected by the inaccuracy caused by using binary numbers for currency
+
 - Once a FeeCalculator object is created, run the calcFee method which takes in the invoice amount and the total days until repayment as arguments to calculate and return the total fee
 
 - The selectServiceFeeBase method stores the different ways (and isn't restricted to what's in there currently) of obtaining the base amount used in calculating the service fee
